@@ -1,0 +1,17 @@
+.mySwiper {
+    width: 80%;
+    height: 100vh;
+}
+
+.imgs {
+    width: 100%;
+    height: 100%;
+}
+
+.section_title {
+    text-align: center;
+    margin-bottom: 100px;
+    margin-top: 30px;
+    font-weight: 800;
+    font-size: 2rem;
+}

@@ -1,0 +1,259 @@
+/* HOME CONTAINER POSISI LINGKARAN DAN GAMBAR  */
+
+/* RESPONSIVE HP */
+.hero-container{
+  background: #8A8A8A;
+  overflow: hidden;
+  margin-left: -20px;
+  margin-right: -10px;
+  height: 87vh;
+}
+
+.herosection {
+  padding: 50px;
+  margin-left: -20px;
+}
+
+.home_sneaker {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-self: center;
+  margin-top: 10px;
+}
+
+.home_shape {
+  width: 340px;
+  height: 340px;
+  background-color: black;
+  border-radius: 50%;
+}
+
+.home_img {
+  position: absolute;
+  max-width: initial;
+  display: flex;
+  justify-content: center;
+  width: 350px;
+  margin-top: 50px;
+  transform: rotate(-20deg);
+  transition: 1.5s;
+  border-radius: 1rem;
+}
+
+.home_img:hover{
+  transform: translateX(.15rem);
+}
+
+
+/* END */
+
+
+/*  */
+
+.home_new {
+  display: block;
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-bottom: 1.4rem;
+  margin-top: .5rem;
+  text-transform: uppercase;
+}
+
+.home_title {
+  font-size: 2rem;
+  text-transform: uppercase;
+}
+
+.home_description {
+  font-size:1rem;
+
+}
+
+/* END */
+
+
+/* BUTTON */
+
+.button-dark {
+  display: inline-block;
+  text-decoration: none;
+  background-color: black;
+  color: white;
+  padding: 1.125rem 1.7rem;
+  border-radius: .6rem;
+}
+
+.button-dark:hover {
+  background-color: rgb(42, 42, 42);
+}
+
+
+/* END */
+
+
+/* BUTTON */
+
+.button-orange {
+  display: inline-block;
+  text-decoration: none;
+  background-color: #FF8E3C;
+  color: black;
+  padding: 1.4rem 2.2rem;
+  border-radius: .6rem;
+  transition: 1.1s;
+  margin-top: .9rem;
+}
+
+.button-orange:hover {
+  background-color: rgb(0, 0, 0);
+  color: white;
+  transform: translateY(.9rem);
+}
+
+
+/* END */
+
+
+@media screen and (min-width: 768px) {
+     /* Home */
+     .home_container {
+      height: 100vh;
+      grid-template-columns: max-content max-content;
+      justify-content: center;
+      align-items: center;
+      }
+
+      .home_sneaker {
+          order: 10;
+          top: -35px;
+      }
+
+      .home_shape {
+          width: 306px;
+          height: 306px;
+      }
+      .home_img {
+          width: 310px;
+          top: 1rem;
+          display: flex;
+      }
+
+      .home_img:hover {
+        transform: translateX(.20rem);
+      }
+    
+      .home_new {
+          display: block;
+          font-size: var(--big-font-size);
+          font-weight: var(--font-semi-bold);
+          margin-bottom: var(--mb-1);
+      }
+    
+      .home_title {
+          font-size: var(--bigger-font-size);
+      }
+      
+      .home_description {
+          font-size: 15px;
+          margin-bottom: var(--mb-6);
+      }
+      
+      .home_description {
+        margin-bottom: 17px;
+      }
+}
+
+
+@media screen and (min-width: 900px) {
+  
+  .home_sneaker {
+    order: 1;
+    top: 15px;
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  .home_data {
+    position: absolute;
+    margin: -250px 0 0 50px;
+  }
+
+  .home_shape {
+      width: 376px;
+      height: 376px;
+  }
+
+  .home_img {
+      width: 340px;
+      top: 1rem;
+      right: 0;
+      display: flex;
+      margin-right: 20px;
+      justify-content: flex-end;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .home_new {
+    font-size: 2.4rem;
+  }
+
+  .home_title {
+    font-size: 2.8rem;
+  }
+
+  .home_description {
+    font-size: 1.2rem;
+  }
+}
+
+
+@media screen and (min-width: 1404px) {
+  .home_data {
+    position: absolute;
+    margin: -300px 0 0 230px;
+  }
+
+  .home_shape {
+      width: 436px;
+      height: 436px;
+  }
+
+  .home_img {
+    width: 400px;
+    top: 1.5rem;
+    right: 0;
+    display: flex;
+    margin-right: 20px;
+    justify-content: flex-end;
+  }
+
+  .home_sneaker {
+    margin-right: 150px;
+  }
+
+  .home_new {
+    font-size: 2.4rem;
+  }
+
+  .home_title {
+    font-size: 3.2rem;
+  }
+
+  .home_description {
+    font-size: 1.2rem;
+  }
+}
+
+
+/* BUTTON */
+
+/* END */
+
+/* BUTTON */
+
+/* END */
+
+
+/* END RESPONSIVE HP */
